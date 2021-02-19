@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box; /* always useful when working with border or padding properties, or any other property that can effect the box-model */
+  }
+  
+  .wrapper {
+    text-align: center;
+    background: gray; /* so we can actually see what's happening */
+    padding: 20px; /* Give us some breathing room */
+    /* Additional */
+    display: flex;
+    justify-content: center;
+    /* Further Additions */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .button {
+    display: inline-block; /* naturally creates "whitespace" between inline elements */
+  }
+  
+  .button1 {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    padding:20px;
+    color: white; 
+    border: 3px solid #fff;
+    /* non-essential augmentations */
+    transition: .7s; /* smooth out the state change on pseudo-state :hover */
+    min-width: 100px;
+    margin: auto 10px; /* additional spacing between nested elements */
+  }
+  
+  .button1:hover{
+    border: 3px solid #000;
+  }

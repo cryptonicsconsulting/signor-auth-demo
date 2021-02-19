@@ -1,0 +1,22 @@
+{
+  "name": "pkiauth",
+  "version": "1.0.0",
+  "description": "did auth demo",
+  "main": "src/server.js",
+  "scripts": {
+    "serve": "nodemon src/server.js"
+  },
+  "author": "cryptonics",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/experimental": "^5.0.7",
+    "cors": "^2.8.5",
+    "ethers": "^5.0.23",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
