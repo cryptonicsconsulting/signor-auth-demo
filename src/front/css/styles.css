@@ -4,7 +4,7 @@
   
   .wrapper {
     text-align: center;
-    background: gray; /* so we can actually see what's happening */
+    background:  #f05a28af; /* so we can actually see what's happening */
     padding: 20px; /* Give us some breathing room */
     /* Additional */
     display: flex;
